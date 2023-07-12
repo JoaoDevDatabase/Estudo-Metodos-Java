@@ -31,6 +31,10 @@ public class Usuario {
         smarttv.voltarCanal();
         System.out.println("CANAL ATUAL : " + smarttv.canal + "\n");
 
+        // escolhendo um canal
+        smarttv.selecionarCanal(4);
+        System.out.println("Novo canal : " + smarttv.canal);
+
         // FIM DE MEU PROGRAMA
     }
 }
